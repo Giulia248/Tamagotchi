@@ -13,6 +13,14 @@
 		CE39D2A9285C698E007FAA1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE39D2A7285C698E007FAA1D /* Main.storyboard */; };
 		CE39D2AB285C6992007FAA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE39D2AA285C6992007FAA1D /* Assets.xcassets */; };
 		CE39D2AE285C6992007FAA1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE39D2AC285C6992007FAA1D /* LaunchScreen.storyboard */; };
+		CE39D2B6285C760E007FAA1D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39D2B5285C760E007FAA1D /* ViewController2.swift */; };
+		CE39D2B8285C7660007FAA1D /* Tamagotchi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39D2B7285C7660007FAA1D /* Tamagotchi.swift */; };
+		CE39D2BB285C8799007FAA1D /* totapop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE39D2BA285C8798007FAA1D /* totapop.mp3 */; };
+		CE39D2BD285C9445007FAA1D /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39D2BC285C9445007FAA1D /* ViewController3.swift */; };
+		CE39D2BF285CA9EC007FAA1D /* saxophone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE39D2BE285CA9EC007FAA1D /* saxophone.mp3 */; };
+		CE39D2C3285CABBB007FAA1D /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE39D2C0285CABBA007FAA1D /* guitar.mp3 */; };
+		CE39D2C4285CABBB007FAA1D /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE39D2C1285CABBB007FAA1D /* pig.mp3 */; };
+		CE39D2C5285CABBB007FAA1D /* violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE39D2C2285CABBB007FAA1D /* violin.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		CE39D2AA285C6992007FAA1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE39D2AD285C6992007FAA1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE39D2AF285C6992007FAA1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE39D2B5285C760E007FAA1D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CE39D2B7285C7660007FAA1D /* Tamagotchi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tamagotchi.swift; sourceTree = "<group>"; };
+		CE39D2BA285C8798007FAA1D /* totapop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = totapop.mp3; path = Tamagotchi/MP3/totapop.mp3; sourceTree = SOURCE_ROOT; };
+		CE39D2BC285C9445007FAA1D /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		CE39D2BE285CA9EC007FAA1D /* saxophone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = saxophone.mp3; sourceTree = "<group>"; };
+		CE39D2C0285CABBA007FAA1D /* guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar.mp3; sourceTree = "<group>"; };
+		CE39D2C1285CABBB007FAA1D /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		CE39D2C2285CABBB007FAA1D /* violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,31 @@
 		CE39D2A0285C698E007FAA1D /* Tamagotchi */ = {
 			isa = PBXGroup;
 			children = (
+				CE39D2B9285C8785007FAA1D /* MP3 */,
 				CE39D2A1285C698E007FAA1D /* AppDelegate.swift */,
 				CE39D2A3285C698E007FAA1D /* SceneDelegate.swift */,
 				CE39D2A5285C698E007FAA1D /* ViewController.swift */,
+				CE39D2B5285C760E007FAA1D /* ViewController2.swift */,
+				CE39D2BC285C9445007FAA1D /* ViewController3.swift */,
+				CE39D2B7285C7660007FAA1D /* Tamagotchi.swift */,
 				CE39D2A7285C698E007FAA1D /* Main.storyboard */,
 				CE39D2AA285C6992007FAA1D /* Assets.xcassets */,
 				CE39D2AC285C6992007FAA1D /* LaunchScreen.storyboard */,
 				CE39D2AF285C6992007FAA1D /* Info.plist */,
 			);
 			path = Tamagotchi;
+			sourceTree = "<group>";
+		};
+		CE39D2B9285C8785007FAA1D /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				CE39D2BE285CA9EC007FAA1D /* saxophone.mp3 */,
+				CE39D2C0285CABBA007FAA1D /* guitar.mp3 */,
+				CE39D2C1285CABBB007FAA1D /* pig.mp3 */,
+				CE39D2C2285CABBB007FAA1D /* violin.mp3 */,
+				CE39D2BA285C8798007FAA1D /* totapop.mp3 */,
+			);
+			path = MP3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +157,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE39D2BB285C8799007FAA1D /* totapop.mp3 in Resources */,
+				CE39D2C5285CABBB007FAA1D /* violin.mp3 in Resources */,
 				CE39D2AE285C6992007FAA1D /* LaunchScreen.storyboard in Resources */,
+				CE39D2C4285CABBB007FAA1D /* pig.mp3 in Resources */,
+				CE39D2C3285CABBB007FAA1D /* guitar.mp3 in Resources */,
 				CE39D2AB285C6992007FAA1D /* Assets.xcassets in Resources */,
 				CE39D2A9285C698E007FAA1D /* Main.storyboard in Resources */,
+				CE39D2BF285CA9EC007FAA1D /* saxophone.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE39D2A6285C698E007FAA1D /* ViewController.swift in Sources */,
+				CE39D2B6285C760E007FAA1D /* ViewController2.swift in Sources */,
+				CE39D2BD285C9445007FAA1D /* ViewController3.swift in Sources */,
 				CE39D2A2285C698E007FAA1D /* AppDelegate.swift in Sources */,
 				CE39D2A4285C698E007FAA1D /* SceneDelegate.swift in Sources */,
+				CE39D2B8285C7660007FAA1D /* Tamagotchi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +332,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +360,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
